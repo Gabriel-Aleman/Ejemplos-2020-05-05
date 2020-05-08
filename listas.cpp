@@ -131,13 +131,13 @@ namespace listas
 void main()
 {
     Lista<int> lista;
-    cout << lista.buscar(10); // Imprime false
+    cout << lista.buscar(10) << "\n"; // Imprime 0
     lista.agregar(1);
     lista.agregar(2);
     lista.agregar(3);
-    cout << lista.buscar(2); // Imprime true
-    cout << lista.buscar(5); // Imprime false
+    cout << lista.buscar(2) << "\n"; // Imprime 1
+    cout << lista.buscar(5) << "\n"; // Imprime 0
     lista.eliminar(2);
-    cout << lista.buscar(2); // Imprime false
+    cout << lista.buscar(2) << "\n"; // Imprime 0
 }
 } // namespace listas
