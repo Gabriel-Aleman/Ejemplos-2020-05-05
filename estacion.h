@@ -28,4 +28,7 @@ public:
     void imprimirNombre(Estacion *);
 };
 
-void mainEstacion();
+namespace estacion
+{
+  void main();
+}

@@ -18,11 +18,14 @@ void imprimir(int *numero)
     }
 }
 
-void mainPunteros()
+namespace punteros
 {
-  int *puntero = nullptr;
-  imprimir(puntero); // No imprime
-  int valor = crearNumero();
-  puntero = &valor;
-  imprimir(puntero); // Imprime 5
+  void main()
+  {
+    int *puntero = nullptr;
+    imprimir(puntero); // No imprime
+    int valor = crearNumero();
+    puntero = &valor;
+    imprimir(puntero); // Imprime 5
+  }
 }

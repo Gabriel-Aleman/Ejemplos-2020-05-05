@@ -3,6 +3,6 @@
 
 int main()
 {
-  mainEstacion();
-  mainPunteros();
+  estacion::main();
+  punteros::main();
 }

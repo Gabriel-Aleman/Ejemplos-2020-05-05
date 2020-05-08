@@ -2,4 +2,7 @@ int crearNumero();
 
 void imprimir(int *);
 
-void mainPunteros();
+namespace punteros
+{
+void main();
+}
