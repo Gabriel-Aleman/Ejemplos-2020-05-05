@@ -1,5 +1,5 @@
-#include "estacion.cpp"
-#include "punteros.cpp"
+#include "estacion.h"
+#include "punteros.h"
 
 int main()
 {
