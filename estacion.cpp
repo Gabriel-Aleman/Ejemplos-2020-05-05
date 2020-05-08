@@ -26,9 +26,9 @@ private:
     Estacion *estacionActual;
 
 public:
-    Tren(Estacion *estacionActual, int numero)
+    Tren(Estacion *parametro, int numero)
     {
-        this->estacionActual = estacionActual;
+        this->estacionActual = parametro;
         this->numero = numero;
     }
 };
@@ -44,11 +44,11 @@ public:
 
 namespace estacion
 {
-  void main()
-  {
-    Estacion estacion1(std::string("Estacion del Pacifico"));
+void main()
+{
+    Estacion estacion1(std::string("Estacion del Atlantico"));
     Tren tren1(&estacion1, 100);
     Mapa mapa;
     mapa.imprimirNombre(&estacion1);
-  }
 }
+} // namespace estacion
