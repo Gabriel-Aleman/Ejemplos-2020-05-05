@@ -41,3 +41,11 @@ public:
         cout << estacion->obtenerNombre() << "\n";
     }
 };
+
+void mainEstacion()
+{
+  Estacion estacion1(std::string("Estacion del Pacifico"));
+  Tren tren1(&estacion1, 100);
+  Mapa mapa;
+  mapa.imprimirNombre(&estacion1);
+}
