@@ -1,6 +1,8 @@
 #include <string>
 using namespace std;
 
+namespace estacion
+{
 class Estacion
 {
 private:
@@ -28,7 +30,5 @@ public:
     void imprimirNombre(Estacion *);
 };
 
-namespace estacion
-{
-  void main();
-}
+void main();
+} // namespace estacion

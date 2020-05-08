@@ -2,6 +2,8 @@
 #include <iostream>
 using namespace std;
 
+namespace estacion
+{
 class Estacion
 {
 private:
@@ -42,8 +44,6 @@ public:
     }
 };
 
-namespace estacion
-{
 void main()
 {
     Estacion estacion1(std::string("Estacion del Atlantico"));

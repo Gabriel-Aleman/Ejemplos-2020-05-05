@@ -1,6 +1,7 @@
 #include "estacion.h"
 #include "punteros.h"
 #include "listas.h"
+#include "otros/cosas.h"
 
 int main()
 {
