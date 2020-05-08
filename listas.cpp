@@ -10,10 +10,10 @@ private:
     T valor;
     Nodo<T> *siguiente; // Nótese que el puntero es a un nodo del mismo tipo.
 public:
-    Nodo<T>(T v)
+    Nodo<T>(T valor)
     {
-        siguiente = nullptr;
-        valor = T;
+        this->siguiente = nullptr;
+        this->valor = valor;
     }
 
     ~Nodo<T>()
@@ -99,7 +99,7 @@ public:
         }
         if (inicial->obtenerValor() == valor)
         {
-            Node<T> *temp = inicial;
+            Nodo<T> *temp = inicial;
             inicial = inicial->obtenerSiguiente();
             temp->establecerSiguiente(nullptr);
             delete temp;
